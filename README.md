@@ -1,7 +1,7 @@
 
 # Exploring the Microsoft.Extensions.DependencyInjection machinery
 
-This project proposes an exploration of the basic concepts and mechanisms of the __Microsoft.Extensions.DependencyInjection__ Dependency Injection machinery. 
+The __[Exploring the Microsoft.Extensions.DependencyInjection machinery](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection)__ project proposes an exploration of the basic concepts and mechanisms of the __Microsoft.Extensions.DependencyInjection__ Dependency Injection machinery. 
 
 This exploration is meant to be progressive, orderly, specifying the terms used, providing in the form of unit tests some as concise as possible examples illustrating the described mechanisms.
 
@@ -715,10 +715,10 @@ Test_DisposableService0 produces the following debug output:
     [16]DisposableClassE[3]].(doDispose) '(+) disposableA=DisposableClassD[2]' 
     [16]DisposableClassA[2]].(dispose) 'disposing=True ALREADY DISPOSED' <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     [16]UnitTests.Tests.ServiceInstantiationTests].(Test_DisposableService0) '_serviceProvider?.Dispose(+)' 
-s
-## 6) Open generics services
 
-A container can register and resolve 'open generics services'.
+## 6) Open generic services
+
+A container can register and resolve 'open generic services'.
 
 ### Example
 
