@@ -6,11 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{90550455-9EA7-4B2D-878C-4D66DBB07A53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{759FC0F0-B902-42AB-A5A2-517BBF5BBC10}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{312F71C4-D06A-4BC1-B42D-39EDD567BF55}"
 	ProjectSection(SolutionItems) = preProject
-		Doc\DependencyInjection.md = Doc\DependencyInjection.md
-		Doc\Notes.txt = Doc\Notes.txt
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

@@ -31,7 +31,7 @@ namespace UnitTests.Tests
                 _serviceProvider = new ServiceCollection()
                     .AddSingleton<InterfaceA, ClassA>()
                     .AddTransient<InterfaceB, ClassB>()
-                    .AddScoped<ClassD>()
+                    .AddScoped<ClassE>()
                     .AddSingleton<ClassD>(_classD)
                     .BuildServiceProvider(options: serviceProviderOptions);
 
@@ -63,8 +63,8 @@ namespace UnitTests.Tests
                     bool _thrown = false;
                     try
                     {
-                        ClassD? _class0 = _serviceProvider.GetService<ClassD>();
-                        ClassD? _class1 = _serviceProvider.GetService<ClassD>();
+                        ClassE? _class0 = _serviceProvider.GetService<ClassE>();
+                        ClassE? _class1 = _serviceProvider.GetService<ClassE>();
                         Assert.Equal(_class0, _class1);
                     }
                     catch (Exception E)
