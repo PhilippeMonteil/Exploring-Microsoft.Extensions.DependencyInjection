@@ -63,7 +63,7 @@ class provides a list of __BuildServiceProvider__ extensions methods for the ISe
 
 ### 1.3) Examples: class UnitTests.ServiceProviderCreationTests
 
-The [__UnitTests.ServiceProviderCreationTests__](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection/blob/Temp_0608/UnitTests/Tests/ServiceProviderCreationTests.cs) 
+The [__UnitTests.ServiceProviderCreationTests__](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection/blob/master/UnitTests/Tests/ServiceProviderCreationTests.cs) 
 unit test class provides examples of various ways to create a ServiceCollection and then transform it into a ServiceProvider.
 
 These examples make use of some of the extensions provided by the [ServiceCollectionServiceExtensions](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.servicecollectionserviceextensions?view=dotnet-plat-ext-6.0) 
@@ -237,7 +237,7 @@ The difference between a GetService method and its GetRequiredService counterpar
 - GetService returns null if the requested service cannot be resolved by the IServiceProvider interface.
 - GetRequiredService triggers an exception in this case.
 
-It is illustrated by the [__ServiceProviderServiceExtensionsTests.Test_GetService__](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection/blob/Temp_0608/UnitTests/Tests/ServiceProviderServiceExtensionsTests.cs) 
+It is illustrated by the [__ServiceProviderServiceExtensionsTests.Test_GetService__](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection/blob/master/UnitTests/Tests/ServiceProviderServiceExtensionsTests.cs) 
 unit test.
 
 ### 2.3) GetServices
@@ -286,7 +286,7 @@ produces the following debug output:
 
 ## 3) Service implementation lifetime: Singleton, Transient, Scope
 
-The rules presented in this paragraph are illustrated by the [ServiceLifetimeTests](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection/blob/Temp_0608/UnitTests/Tests/ServiceLifetimeTests.cs)
+The rules presented in this paragraph are illustrated by the [ServiceLifetimeTests](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection/blob/master/UnitTests/Tests/ServiceLifetimeTests.cs)
 class.
 
 ### 3.1) Terminology
@@ -434,7 +434,7 @@ A container chooses the constructor whose parameter list contains the largest nu
 It is possible that several constructors quote the same number of resolved types: 
 in this case, the container does not know how to choose a constructor and therefore does not instantiate the class and throws an exception.
 
-The [__ServiceInstantiationTests.Test_ConstructorChoice__](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection/blob/Temp_0608/UnitTests/Tests/ServiceInstantiationTests.cs) test illustrates these mechanisms.
+The [__ServiceInstantiationTests.Test_ConstructorChoice__](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection/blob/master/UnitTests/Tests/ServiceInstantiationTests.cs) test illustrates these mechanisms.
 
 ### Example
 
