@@ -1,7 +1,7 @@
 
 # Exploring the Microsoft.Extensions.DependencyInjection machinery
 
-The __[Exploring the Microsoft.Extensions.DependencyInjection machinery](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection)__ project proposes an exploration of the basic concepts and mechanisms of the __Microsoft.Extensions.DependencyInjection__ Dependency Injection machinery. 
+The __[Exploring the Microsoft.Extensions.DependencyInjection machinery](https://github.com/PhilippeMonteil/Exploring-Microsoft.Extensions.DependencyInjection)__ project proposes an exploration of the core concepts and mechanisms of the __Microsoft.Extensions.DependencyInjection__ Dependency Injection machinery. 
 
 This exploration is meant to be progressive, orderly, specifying the terms used, providing in the form of unit tests some as concise as possible examples illustrating the described mechanisms.
 
